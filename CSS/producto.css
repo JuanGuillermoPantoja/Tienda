@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5%;
+    width: 95%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 350px;
+}
+.card-img{
+    width: 80%;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
